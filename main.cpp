@@ -5,13 +5,13 @@ public:
     char type;
 
     Temp(int value, char type){
-        std::cout << "Object created ..." << std::endl;
+        std::cout << "Object created .." << std::endl;
         this->type = type;
         this->value = value;
     }
 
     ~Temp(){
-        std::cout << "Object destroyed ..." << std::endl;
+        std::cout << "Object destroyed .." << std::endl;
     }
 
     void convert(char newType){
