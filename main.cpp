@@ -1,7 +1,7 @@
 #include <iostream>
 class Temp{
 public:
-    int val;
+    int value;
     char type;
 
     Temp(int value, char type){
